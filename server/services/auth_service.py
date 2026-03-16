@@ -42,4 +42,4 @@ def authenticate_user(username, password):
 
 
 def get_user_by_id(user_id):
-    return User.query.get(user_id)
+    return db.session.get(User, user_id)

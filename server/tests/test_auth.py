@@ -58,7 +58,11 @@ class TestRegister:
         assert response.status_code == 400
 
     def test_register_no_body(self, client):
-        response = client.post("/api/auth/register")
+        response = client.post(
+            "/api/auth/register",
+            json=None,
+            content_type="application/json",
+        )
         assert response.status_code == 400
 
 
