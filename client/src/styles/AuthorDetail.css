@@ -1,0 +1,63 @@
+.author-detail {
+    padding-bottom: 24px;
+}
+
+.author-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.author-detail-header h1 {
+    font-size: 28px;
+    color: var(--gray-900);
+    margin-bottom: 4px;
+}
+
+.author-birth {
+    font-size: 14px;
+    color: var(--gray-500);
+}
+
+.author-detail-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.author-biography {
+    margin-bottom: 24px;
+}
+
+.author-biography h3 {
+    font-size: 18px;
+    color: var(--gray-800);
+    margin-bottom: 8px;
+}
+
+.author-biography p {
+    font-size: 14px;
+    color: var(--gray-600);
+    line-height: 1.7;
+    white-space: pre-wrap;
+}
+
+.author-website {
+    margin-bottom: 24px;
+}
+
+.author-website h3 {
+    font-size: 18px;
+    color: var(--gray-800);
+    margin-bottom: 8px;
+}
+
+.author-books {
+    margin-top: 24px;
+}
+
+.author-books h3 {
+    font-size: 18px;
+    color: var(--gray-800);
+    margin-bottom: 16px;
+}

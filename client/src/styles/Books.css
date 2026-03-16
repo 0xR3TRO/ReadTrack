@@ -1,0 +1,30 @@
+.books-page {
+    padding-bottom: 24px;
+}
+
+.books-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.books-header h1 {
+    font-size: 28px;
+    color: var(--gray-900);
+}
+
+.books-filters {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    flex: 1;
+    max-width: 300px;
+}
+
+.filter-select {
+    width: 160px;
+}

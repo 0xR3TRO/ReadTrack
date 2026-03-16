@@ -1,0 +1,61 @@
+.authors-page {
+    padding-bottom: 24px;
+}
+
+.authors-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.authors-header h1 {
+    font-size: 28px;
+    color: var(--gray-900);
+}
+
+.authors-filters {
+    margin-bottom: 20px;
+}
+
+.authors-filters .search-input {
+    max-width: 300px;
+}
+
+.author-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+.author-card {
+    display: block;
+    background: white;
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    padding: 16px;
+    text-decoration: none;
+    color: inherit;
+    transition:
+        box-shadow 0.2s,
+        border-color 0.2s;
+}
+
+.author-card:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary);
+    text-decoration: none;
+}
+
+.author-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-bottom: 8px;
+}
+
+.author-bio {
+    font-size: 13px;
+    color: var(--gray-500);
+    line-height: 1.5;
+}
