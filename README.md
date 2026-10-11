@@ -140,4 +140,6 @@ See [docs/api.md](docs/api.md) for full API documentation.
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+Copyright (C) 2026 0xR3TRO.
+
+Licensed under the [GNU Affero General Public License v3.0 or later](LICENSE) (AGPL-3.0-or-later). You may use, study, change and share this code; if you run a modified version as a network service, you must offer its source code to the users of that service.
