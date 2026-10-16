@@ -1,6 +1,6 @@
 # ReadTrack
 
-A comprehensive book management system that enables users to track their reading progress, store notes and files, and manage detailed information about books and authors.
+A reading tracker: follow your progress in each book, keep notes tied to pages, attach files, and manage books and authors.
 
 ## Features
 
@@ -52,7 +52,7 @@ ReadTrack/
 
 ### Prerequisites
 
-- Python 3.10+
+- Python 3.10+ built with OpenSSL (password hashing uses `hashlib.scrypt`; the macOS system Python 3.9 lacks it — use Python from Homebrew or python.org)
 - Node.js 18+
 
 ### Backend

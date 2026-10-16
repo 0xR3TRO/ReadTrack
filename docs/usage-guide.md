@@ -11,8 +11,8 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd ReadTrack
+git clone https://github.com/0xR3TRO/readtrack.git
+cd readtrack
 ```
 
 ### 2. Backend Setup
